@@ -1,0 +1,81 @@
+body{
+    background-color:cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 20px;
+
+}
+form{
+    margin: auto;
+    background-color: bisque;
+    border-radius: 4px;
+    padding: 20px;
+    max-width: 600px;
+  
+}
+h1
+{
+    text-align: center;
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+}
+label{
+    display: block;
+    margin-top: 10px;
+
+}
+input,textarea {
+margin-top: 4px;
+padding: 8px;
+width: calc(100%-1px);
+width: 100%;
+border-radius: 4px;
+border: 1px solid;
+box-sizing: border-box;   
+}
+button{
+    display: block;
+    width: 100%;
+    background-color: crimson;
+    border:none;
+   border-radius: 4px;
+   margin-top: 10px;
+   font-size: 18px;
+   padding: 10px;
+   cursor: pointer;
+}
+button:hover {
+   background-color: #45a049;
+   color: white ;
+}
+
+
+#resume-display {
+    max-width: 600px;
+    margin:auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: bisque;
+    }
+    #resume-display h2 {
+        color: black;
+    }
+    h1 {
+    
+        font: bolder;
+        
+        
+    }
